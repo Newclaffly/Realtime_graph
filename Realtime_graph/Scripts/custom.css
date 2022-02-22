@@ -1,0 +1,98 @@
+﻿body {
+    font-family: "Segoe UI" !important;
+}
+
+body {
+    background-image: url(../img/bg4.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-yellow{color:#fdf48c}
+.text-success {
+    color: #42f76b!important;
+}
+.text-danger {
+    color: #fe818d!important;
+}
+.btn-primary{
+   background-color: #5a70c1 !important; 
+   border:0;
+}
+
+.form-control {
+    border: 1px solid rgb(50, 49, 48);
+    border-radius: 0;
+}
+/*.input-group-text{border: 1px solid rgb(50, 49, 48);}*/
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.btn-group-sm > .btn, .btn-sm {
+    border-radius: 0;
+}
+
+.ani {
+    background-image: url(../img/astronaut3.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: spin2;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ani2 {
+    background-image: url(../img/astronaut2.png);
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    0% {
+        right: 0px;
+    }
+
+    100% {
+        right: 100px;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(-20deg);
+    }
+
+    to {
+        transform: rotate(20deg);
+    }
+}
+@keyframes spin2 {
+    from {
+        transform: rotate(-30deg);
+    }
+
+    to {
+        transform: rotate(-60deg);
+    }
+}
+@keyframes move2 {
+    0% {
+        left:0px
+    }
+    100% {
+        left: 100px;
+    }
+}
+
